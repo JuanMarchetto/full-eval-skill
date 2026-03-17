@@ -130,9 +130,9 @@ This skill composes three existing systems. Install them first:
 
 | Dependency | Purpose | Install |
 |-----------|---------|---------|
-| [architect](https://github.com/JuanMarchetto/architect) | Strategic evaluation (6 evaluators) | Built-in (see architect repo) |
-| [council](https://github.com/JuanMarchetto/council) | Personal evaluation (8 advisors) | Built-in (see council repo) |
-| pdf-presentation | PDF report generation | Required for PDF output |
+| [architect](https://github.com/JuanMarchetto/architect-skill) | Strategic evaluation (6 evaluators) | `/plugin install architect@agent-skills` |
+| [council](https://github.com/JuanMarchetto/council-skill) | Personal evaluation (8 advisors) | `/plugin install council-skill@agent-skills` |
+| [pdf-presentation](https://github.com/JuanMarchetto/pdf-presentation-skill) | PDF report generation | `/plugin install pdf-presentation@agent-skills` |
 
 The skill degrades gracefully -- if PDF generation is unavailable, results are displayed as formatted text in the terminal.
 
@@ -149,6 +149,43 @@ The skill degrades gracefully -- if PDF generation is unavailable, results are d
 
 ### NO-GO (Score 2.1/10)
 > "The market is saturated (Commercial: 3/10), the technology is immature (Technical: 4/10), and your financial situation cannot absorb the risk (Finance: critical). The Innovation Scout found no defensible angle. Redirect energy toward alternatives identified in the Architecture Proposal."
+
+## Real Example — Career Decision
+
+```
+$ claude "should I quit my job to build an AI meal planning app?"
+
+━━━ FULL EVALUATION ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ARCHITECT (Strategic): 7.5/10 — CONDITIONAL GO
+  Commercial:    7/10  Growing market, $4B TAM
+  Technical:     8/10  Feasible, proven LLM + recipe API stack
+  Risk:          5/10  Crowded space, but defensible with personalization
+  Innovation:    6/10  Novel angle: dietary restriction + budget optimization
+
+COUNCIL (Personal): 5.5/10 — NOT NOW
+  Finance:       3/10  Only 3 months runway (need 9+)
+  Health:        4/10  Active burnout signals from current role
+  Career:        8/10  Strong alignment with ML trajectory
+  Relationships: 5/10  Startup hours strain family time with young kids
+  Systems:       6/10  Current job allows 15hrs/week side project time
+
+META-SYNTHESIS: CONDITIONAL GO (6.8/10)
+
+  "The opportunity scores well but your situation isn't ready.
+   Validate for 3 months while employed. Conditions:
+   • Secure 9 months runway ($45K savings target)
+   • Hit 50 beta users and $500 MRR from side project
+   • Establish hard stop date — if no traction by Q3, pivot
+   • Address burnout first: health score 4/10 is a blocker"
+
+  Key Synergy: Career trajectory toward ML + market need = strong fit
+  Key Conflict: Financial reality vs ambition timeline
+
+  PDF: strategic-evaluation.pdf (24 pages)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
 
 ## Files
 
