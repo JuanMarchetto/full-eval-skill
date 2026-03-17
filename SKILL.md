@@ -232,9 +232,9 @@ The system is designed to be resilient when individual components encounter issu
 - The full evaluation results are displayed in the terminal as formatted text
 - A markdown file is saved as a fallback
 
-## Bilingual Behavior
+## Language
 
-All evaluators, advisors, synthesizers, and the meta-synthesizer respond in the same language the user writes in. If the user writes in Spanish, the entire evaluation -- including the PDF report -- is produced in Spanish. Language is matched naturally without asking.
+All evaluators, advisors, synthesizers, and the meta-synthesizer respond in the same language the user writes in. The entire evaluation — including the PDF report — is produced in the user's language. Matched automatically without asking.
 
 ## Structure
 
