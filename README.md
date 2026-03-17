@@ -152,6 +152,8 @@ The skill degrades gracefully -- if PDF generation is unavailable, results are d
 
 ## Real Example — "Leave FAANG to build dev tools startup?"
 
+![full-eval demo](demo/demo.gif)
+
 ```
 FULL EVALUATION — "Leave FAANG to build dev tools startup?"
 
