@@ -150,41 +150,49 @@ The skill degrades gracefully -- if PDF generation is unavailable, results are d
 ### NO-GO (Score 2.1/10)
 > "The market is saturated (Commercial: 3/10), the technology is immature (Technical: 4/10), and your financial situation cannot absorb the risk (Finance: critical). The Innovation Scout found no defensible angle. Redirect energy toward alternatives identified in the Architecture Proposal."
 
-## Real Example — Career Decision
+## Real Example — "Leave FAANG to build dev tools startup?"
 
 ```
-$ claude "should I quit my job to build an AI meal planning app?"
+FULL EVALUATION — "Leave FAANG to build dev tools startup?"
 
-━━━ FULL EVALUATION ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━ ARCHITECT (Strategic): 7.2/10 ━━━
+  Commercial:    8/10  Strong TAM — dev tools market growing 18% YoY, $45B by 2028
+  Technical:     7/10  OSS moat is real but requires 12-18mo to build community traction
+  Risk:          5/10  73% of dev tool startups fail pre-Series A; OSS monetization unproven
+  Innovation:    8/10  AI-native dev tools are a generational shift — timing is right
+  Impact:        7/10  High developer leverage — 1 good tool can reach millions
+  Resources:     6/10  Solo founder needs $150K+ runway; hiring senior OSS devs is expensive
 
-ARCHITECT (Strategic): 7.5/10 — CONDITIONAL GO
-  Commercial:    7/10  Growing market, $4B TAM
-  Technical:     8/10  Feasible, proven LLM + recipe API stack
-  Risk:          5/10  Crowded space, but defensible with personalization
-  Innovation:    6/10  Novel angle: dietary restriction + budget optimization
+━━━ COUNCIL (Personal): 5.8/10 ━━━
+  Finance:       4/10  $320K TC → $0 is a cliff; 8 months savings won't survive pivot
+  Health:        5/10  Startup stress is real — founders report 2x burnout vs employees
+  Career:        7/10  FAANG brand + founder story = strong either way; reentry possible
+  Relationships: 5/10  Partner depends on dual income; needs explicit alignment conversation
+  Learning:      9/10  Massive growth across business, product, community — no comparison
+  Systems:       4/10  No co-founder, no advisor network, no launch infrastructure yet
+  Creative:      8/10  Full creative ownership vs implementing someone else's roadmap
+  Life Coach:    6/10  Motivation is high but plan is vague — passion ≠ readiness
 
-COUNCIL (Personal): 5.5/10 — NOT NOW
-  Finance:       3/10  Only 3 months runway (need 9+)
-  Health:        4/10  Active burnout signals from current role
-  Career:        8/10  Strong alignment with ML trajectory
-  Relationships: 5/10  Startup hours strain family time with young kids
-  Systems:       6/10  Current job allows 15hrs/week side project time
+━━━ META-SYNTHESIS: CONDITIONAL GO (6.4/10) ━━━
 
-META-SYNTHESIS: CONDITIONAL GO (6.8/10)
+  "The market window is real and your skills are aligned, but your
+   infrastructure isn't. This is a 'yes' to the destination and a
+   'not yet' to the departure date."
 
-  "The opportunity scores well but your situation isn't ready.
-   Validate for 3 months while employed. Conditions:
-   • Secure 9 months runway ($45K savings target)
-   • Hit 50 beta users and $500 MRR from side project
-   • Establish hard stop date — if no traction by Q3, pivot
-   • Address burnout first: health score 4/10 is a blocker"
+  Key Synergy: Career upside + innovation timing — even if the startup
+    fails, the founder journey at this market inflection compounds your
+    long-term value in ways staying at FAANG cannot.
 
-  Key Synergy: Career trajectory toward ML + market need = strong fit
-  Key Conflict: Financial reality vs ambition timeline
+  Key Conflict: Strategic opportunity (8/10) vs financial runway (4/10) —
+    the market says go now, but your bank account says survive first.
 
-  PDF: strategic-evaluation.pdf (24 pages)
+  Conditions:
+    1. Extend runway to 18 months ($240K liquid) before resigning
+    2. Ship v0.1 nights/weekends and validate with 500+ GitHub stars
+    3. Secure 1 design partner (paying or committed) pre-launch
+    4. Have the partner/family financial conversation — get explicit buy-in
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  PDF: strategic-evaluation.pdf (28 pages)
 ```
 
 ## Files
