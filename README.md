@@ -131,7 +131,7 @@ This skill composes three existing systems. Install them first:
 | Dependency | Purpose | Install |
 |-----------|---------|---------|
 | [architect](https://github.com/JuanMarchetto/architect-skill) | Strategic evaluation (6 evaluators) | `/plugin install architect@agent-skills` |
-| [council](https://github.com/JuanMarchetto/council-skill) | Personal evaluation (8 advisors) | `/plugin install council-skill@agent-skills` |
+| [council](https://github.com/JuanMarchetto/council-skill) | Personal evaluation (8 advisors) | `/plugin install council@agent-skills` |
 | [pdf-presentation](https://github.com/JuanMarchetto/pdf-presentation-skill) | PDF report generation | `/plugin install pdf-presentation@agent-skills` |
 
 The skill degrades gracefully -- if PDF generation is unavailable, results are displayed as formatted text in the terminal.
